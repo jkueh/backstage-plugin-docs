@@ -13,7 +13,7 @@ If you are migrating from the PagerDuty plugin that was maintained by Backstage 
 
     ```bash
     # From your Backstage root directory
-    yarn add --cwd packages/app @pagerduty/backstage-plugin @pagerduty/backstage-plugin-common
+    yarn --cwd packages/app add @pagerduty/backstage-plugin @pagerduty/backstage-plugin-common
     ```
 
 3. Replace all occurrences of `@backstage/plugin-pagerduty` with `@pagerduty/backstage-plugin` in your components
@@ -21,7 +21,7 @@ If you are migrating from the PagerDuty plugin that was maintained by Backstage 
 4. Install the backend PagerDuty plugin for Backstage
 
     ```bash
-    yarn add --cwd packages/backend @pagerduty/backstage-plugin-backend @pagerduty/backstage-plugin-common
+    yarn --cwd packages/backend add @pagerduty/backstage-plugin-backend @pagerduty/backstage-plugin-common
     ```
 
 5. [Add the backend plugin](/backstage-plugin-docs/getting-started/backstage/#add-the-backend-plugin-to-your-application) to your Backstage project

@@ -12,7 +12,7 @@ By doing so, it enables and configures the PagerDuty Card provided by the fronte
     If you were already using the scaffolder actions before this, follow the migration guide [here](/backstage-plugin-docs/advanced/backend-system-migration) as you need to update the package used in the code.
 
 ```bash
-yarn add --cwd packages/backend @pagerduty/backstage-plugin-scaffolder-actions # (1)!
+yarn --cwd packages/backend add @pagerduty/backstage-plugin-scaffolder-actions # (1)!
 ```
 
 1. This command adds `@pagerduty/backstage-plugin-scaffolder` package to the `packages/backend` folder because it is a backend module.
@@ -137,7 +137,7 @@ Once all the information is provided by the user we will:
     The UI component that allows users to select the *Escalation Policy* when creating a new service in PagerDuty depends on an open source component. For the template to work properly please install it before.
 
     ```bash
-    yarn add --cwd packages/app @roadiehq/plugin-scaffolder-frontend-module-http-request-field
+    yarn --cwd packages/app add @roadiehq/plugin-scaffolder-frontend-module-http-request-field
     ```
 
     Once it is installed, go to `/packages/app/src/App.tsx` and find `<ScaffolderPage />`. Add the UI component to `ScaffolderFieldExtensions`. It should look like this when you finish.

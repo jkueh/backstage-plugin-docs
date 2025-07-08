@@ -193,7 +193,7 @@ This release adds support to the new [Backstage backend system](https://backstag
 1. Install new package
 
     ```bash
-    yarn add --cwd packages/backend @pagerduty/backstage-plugin-scaffolder-actions
+    yarn --cwd packages/backend add @pagerduty/backstage-plugin-scaffolder-actions
     yarn install
     ```
 
@@ -220,14 +220,14 @@ This release adds support to the new [Backstage backend system](https://backstag
 1. Install new package
 
     ```bash
-    yarn add --cwd packages/backend @pagerduty/backstage-plugin-scaffolder-actions
+    yarn --cwd packages/backend add @pagerduty/backstage-plugin-scaffolder-actions
     yarn install
     ```
 
 2. **(Optional)** If this is the first time configuring PagerDuty's plugin you also need the following packages
 
     ```bash
-    yarn add --cwd packages/backend @pagerduty/backstage-plugin-backend @pagerduty/backstage-plugin-common
+    yarn --cwd packages/backend add @pagerduty/backstage-plugin-backend @pagerduty/backstage-plugin-common
     yarn install
     ```
 

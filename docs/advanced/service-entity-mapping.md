@@ -13,7 +13,7 @@ For that reason we create a `PagerDutyPage` component that is intended to be the
 In order to set this up in your Backstage instance you should install the necessary packages first by running the following command. This command will install the entity processor module that we will configure later on.
 
 ```bash
-yarn add --cwd packages/backend @pagerduty/backstage-plugin-entity-processor
+yarn --cwd packages/backend add @pagerduty/backstage-plugin-entity-processor
 ```
 
 !!! note
