@@ -89,4 +89,4 @@ Follow [these steps](../advanced/create-service-software-template) to add the cu
 
 ## The future
 
-We are actively working on new capabilities based on user feedback and requests. If you have ideas or bugs to report we appreciate that you use the project's [Issues](https://github.com/PagerDuty/backstage-plugin/issues) page and let us know.
+We are actively working on new capabilities based on user feedback and requests. If you have ideas or bugs to report we appreciate that you use the project's [Issues](https://github.com/PagerDuty/backstage-plugins/issues) page and let us know.
